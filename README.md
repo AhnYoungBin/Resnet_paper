@@ -9,3 +9,11 @@ VGGnet 이후 망이 깊어 질수록 성능이 올라간다고 하지만 layer�
 > plane network 20-layer와 56-layer의 train error와 test error   
 
 <img src="/image/1.JPG" width="80%" height="80%" title="img1" alt="img1"></img>   
+
+그래서 더 깊은 레이어까지 잘 학습이 되도록하는 방법을 Kaming he가 shorcut(Skip) connection을 고안했습니다.   
+
+Related work
+------------
+
+<img src="/image/2.JPG" width="80%" height="80%" title="img1" alt="img1"></img>   
+
