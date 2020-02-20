@@ -14,6 +14,15 @@ VGGnet 이후 망이 깊어 질수록 성능이 올라간다고 하지만 layer�
 
 Related work
 ------------
-
+>Residual Block   
+    
 <img src="/image/2.JPG" width="80%" height="80%" title="img1" alt="img1"></img>   
 
+ResNet의 핵심은 Residual Block이라고 생각한다. 그림 왼쪽 방식은 입력 x를 y에 매핑하는 H(x)를 얻는 것이 목적으로 하는 plane network의 direct mapping을 의미한다.     
+하지만 Residual Block은 입력 x와 H(x)의 차이를 0에 수렴하게 되어 입력과 출력이 같아지도록 하는 것을 목적으로 한다. F(x)를 입력 x와 출력 H(x)의 잔차(Residual)라고 가정하면 F(x)= H(x)-x 라고 표현할 수 있다. 식을 재정의하면 H(x) = F(x)+x 으로 만들어 위의 그림 우측과 같은 형식의 구조를 만들 수 있다. 입력 x가 y에 매핑하는 것보다 shortcut 형식의 입력 x가 0에 매핑하도록 하면 연산량의 증가없이 입력 x의 작은 움직임도 쉽게 검출 할 수있다. 또한 레이어를 건너 뛰며 입력과 출력이 연결되어 순전파와 역전파 연산 또한 단순해져서 깊은 망도 최적화 할 수 있게 되며 깊은 망으로 인한 정확도도 개선되는 효과를 얻는다. 이와같이 잔차(Residual)를 0에 수렴하게 학습 하는 network라고 하여 Resnet이라고 표현하게 된다.
+ 
+ 
+Bottle neck
+------------
+
+<img src="/image/4.JPG" width="80%" height="80%" title="img1" alt="img1"></img>   
