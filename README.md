@@ -25,4 +25,6 @@ ResNet의 핵심은 Residual Block이라고 생각한다. 그림 왼쪽 방식�
 BottleNeck Architecture
 -----------------------
 
-<img src="/image/4.JPG" width="80%" height="80%" title="img1" alt="img1"></img>   
+<img src="/image/4.JPG" width="80%" height="80%" title="img1" alt="img1"></img> 
+   
+ResNet 50 부터는 연산량의 줄이기 위해 Residual Block 내에, 1x1, 3x3, 1x1 Convolution Layer 구조로 되어있다. GoogleNet의 Inception 구조와 동일하다. 1x1 Convolution layer에서 dimension을 줄여 Feature map의 갯수를 줄였다가 3x3을 거친 후, 1x1 Convolution layer에서 dimension을 다시 늘려준다. 이 과정이 병목(Bottleneck)같다 하여 Bottleneck layer라고 부른다.
