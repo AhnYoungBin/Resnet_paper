@@ -1,7 +1,7 @@
 Deep Residual Learning for Image Recognition
 ============================================
 
-논문 링크 : <https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf>
+논문 링크 : <https://arxiv.org/pdf/1512.03385.pdf>
 
 Introduce
 ---------
