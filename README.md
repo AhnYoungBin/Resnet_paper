@@ -65,5 +65,5 @@ Convolution layer의 feature map의 크기를 줄일때 pooling을 거의 사용
    
 Code 구현
 ----------
-tesnorflow2.0 : <https://github.com/AhnYoungBin/Resnet_tensrorflow>
-pytorch : <https://github.com/AhnYoungBin/Resnet50_pytorch>
+#### tesnorflow2.0 : <https://github.com/AhnYoungBin/Resnet_tensrorflow>    
+#### pytorch : <https://github.com/AhnYoungBin/Resnet50_pytorch>
