@@ -63,3 +63,7 @@ Convolution layer의 feature map의 크기를 줄일때 pooling을 거의 사용
 단일 모델 비교 결과는 152-layer의 경우 top-5 error율이 4.49% 까지 떨어지는 쾌거를 이루었다. 과거 어떤 모델보다 좋은결과를 얻었음을 보인다.
 이후 1000-layer에 대해서도 최적화에 별 어려움이 없었음을 보여줬고 1202 layer에서는 Dataset의 부족으로 overfiting이 발생하여서 결과가 조금 떨어지는 것을 확인하였다. 이를 위해 reguarization 기법을 적용하여 성능이 올라갈 것을 예상한다.
    
+Code 구현
+----------
+tesnorflow2.0 : <https://github.com/AhnYoungBin/Resnet_tensrorflow>
+pytorch : <https://github.com/AhnYoungBin/Resnet50_pytorch>
